@@ -126,7 +126,7 @@ def locate_image_on_screen(image_path, confidence=0.8, timeout=8):
 
 # 使用示例
 if __name__ == "__main__":
-    test_path = "test.png"
+    test_path = "test2.png"
     result = locate_image_on_screen(test_path, confidence=0.7, timeout=3)
     if result:
         print(f"找到图像，位置：{result}")
